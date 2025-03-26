@@ -1,5 +1,4 @@
 # hopOldAnimes(HTML, CSS, javascript && API)
 Um site que mostra animes antigos que vale apena ver
 
-
-![hopanimes](https://github.com/user-attachments/assets/d47299ad-f0df-4e4c-a12f-ef30058b4da2)
+![hA](https://github.com/user-attachments/assets/f0f843d4-9a62-4eab-81ff-f5cce5b440af)
