@@ -63,8 +63,9 @@ document.querySelector('#search').addEventListener('input', (e) => {
     }
 })
 
-//Adding a background color to menu when user scroll down
+//Scroll Event
 window.addEventListener('scroll', () => {
+    //Adding a background color to menu when user scroll down
     if (window.scrollY > 240 ) {
         document.querySelector('.navigation').classList.add('navigationSDBackground')
         document.querySelector('.navigation').classList.add('fixed')
@@ -73,6 +74,7 @@ window.addEventListener('scroll', () => {
         document.querySelector('.navigation').classList.remove('fixed')
     }
 
+    //Showing the button to scroll up when scrollY > 320
     if(window.scrollY > 320){
         document.querySelector('.toTop').style.display = 'block'
         document.querySelector('.toTop').addEventListener('click', (e) => {
