@@ -1,6 +1,6 @@
 //Fetch animes
 const fetchAnimes = async () => {
-    const response = await fetch('https://api.jikan.moe/v4/anime') // change fetch url to get all animes
+    const response = await fetch('https://api.jikan.moe/v4/anime')
     if (response.status === 200){
         return await response.json()
     } else {
