@@ -50,8 +50,7 @@ img:hover{
     left: 0;
     width: 100%;
     z-index: 10;
-    background-image: linear-gradient(#ad3ec939, #0000ff47);
-
+    background-color: hsla(288, 56%, 52%, 0.303);
 }
 
 @media (max-width: 804px) {
